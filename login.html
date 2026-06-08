@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Login</title>
+    <!-- Link the CSS file to login.html -->
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
 
-    <h2>Login Form</h2>
+    <!-- Wrapped in a container to center both the heading and form together -->
+    <div class="login-container">
+        <h2>Login Form</h2>
 
-    <form>
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username" placeholder="Enter your username" required><br><br>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
 
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
 
-        <button type="submit">Login</button>
-    </form>
+            <button type="submit">Login</button>
+        </form>
+    </div>
 
 </body>
 </html>
